@@ -1,0 +1,10 @@
+.noto-sans {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}

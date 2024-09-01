@@ -1,0 +1,3470 @@
+[
+  {
+    "name": "Wallis and Futuna",
+    "countryCode": "WF",
+    "phoneCode": "+681",
+    "flag": "https://flagsapi.com/WF/flat/32.png"
+  },
+  {
+    "name": "Iceland",
+    "countryCode": "IS",
+    "phoneCode": "+354",
+    "flag": "https://flagsapi.com/IS/flat/32.png"
+  },
+  {
+    "name": "Luxembourg",
+    "countryCode": "LU",
+    "phoneCode": "+352",
+    "flag": "https://flagsapi.com/LU/flat/32.png"
+  },
+  {
+    "name": "Mali",
+    "countryCode": "ML",
+    "phoneCode": "+223",
+    "flag": "https://flagsapi.com/ML/flat/32.png"
+  },
+  {
+    "name": "Comoros",
+    "countryCode": "KM",
+    "phoneCode": "+269",
+    "flag": "https://flagsapi.com/KM/flat/32.png"
+  },
+  {
+    "name": "Australia",
+    "countryCode": "AU",
+    "phoneCode": "+61",
+    "flag": "https://flagsapi.com/AU/flat/32.png"
+  },
+  {
+    "name": "Estonia",
+    "countryCode": "EE",
+    "phoneCode": "+372",
+    "flag": "https://flagsapi.com/EE/flat/32.png"
+  },
+  {
+    "name": "Canada",
+    "countryCode": "CA",
+    "phoneCode": "+1",
+    "flag": "https://flagsapi.com/CA/flat/32.png"
+  },
+  {
+    "name": "Belarus",
+    "countryCode": "BY",
+    "phoneCode": "+375",
+    "flag": "https://flagsapi.com/BY/flat/32.png"
+  },
+  {
+    "name": "Guyana",
+    "countryCode": "GY",
+    "phoneCode": "+592",
+    "flag": "https://flagsapi.com/GY/flat/32.png"
+  },
+  {
+    "name": "Gambia",
+    "countryCode": "GM",
+    "phoneCode": "+220",
+    "flag": "https://flagsapi.com/GM/flat/32.png"
+  },
+  {
+    "name": "Tunisia",
+    "countryCode": "TN",
+    "phoneCode": "+216",
+    "flag": "https://flagsapi.com/TN/flat/32.png"
+  },
+  {
+    "name": "Cameroon",
+    "countryCode": "CM",
+    "phoneCode": "+237",
+    "flag": "https://flagsapi.com/CM/flat/32.png"
+  },
+  {
+    "name": "Rwanda",
+    "countryCode": "RW",
+    "phoneCode": "+250",
+    "flag": "https://flagsapi.com/RW/flat/32.png"
+  },
+  {
+    "name": "Cambodia",
+    "countryCode": "KH",
+    "phoneCode": "+855",
+    "flag": "https://flagsapi.com/KH/flat/32.png"
+  },
+  {
+    "name": "Benin",
+    "countryCode": "BJ",
+    "phoneCode": "+229",
+    "flag": "https://flagsapi.com/BJ/flat/32.png"
+  },
+  {
+    "name": "Greece",
+    "countryCode": "GR",
+    "phoneCode": "+30",
+    "flag": "https://flagsapi.com/GR/flat/32.png"
+  },
+  {
+    "name": "South Korea",
+    "countryCode": "KR",
+    "phoneCode": "+82",
+    "flag": "https://flagsapi.com/KR/flat/32.png"
+  },
+  {
+    "name": "Mauritius",
+    "countryCode": "MU",
+    "phoneCode": "+230",
+    "flag": "https://flagsapi.com/MU/flat/32.png"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "countryCode": "VI",
+    "phoneCode": "+1340",
+    "flag": "https://flagsapi.com/VI/flat/32.png"
+  },
+  {
+    "name": "Åland Islands",
+    "countryCode": "AX",
+    "phoneCode": "+35818",
+    "flag": "https://flagsapi.com/AX/flat/32.png"
+  },
+  {
+    "name": "San Marino",
+    "countryCode": "SM",
+    "phoneCode": "+378",
+    "flag": "https://flagsapi.com/SM/flat/32.png"
+  },
+  {
+    "name": "Maldives",
+    "countryCode": "MV",
+    "phoneCode": "+960",
+    "flag": "https://flagsapi.com/MV/flat/32.png"
+  },
+  {
+    "name": "Vanuatu",
+    "countryCode": "VU",
+    "phoneCode": "+678",
+    "flag": "https://flagsapi.com/VU/flat/32.png"
+  },
+  {
+    "name": "Malawi",
+    "countryCode": "MW",
+    "phoneCode": "+265",
+    "flag": "https://flagsapi.com/MW/flat/32.png"
+  },
+  {
+    "name": "Egypt",
+    "countryCode": "EG",
+    "phoneCode": "+20",
+    "flag": "https://flagsapi.com/EG/flat/32.png"
+  },
+  {
+    "name": "Senegal",
+    "countryCode": "SN",
+    "phoneCode": "+221",
+    "flag": "https://flagsapi.com/SN/flat/32.png"
+  },
+  {
+    "name": "Georgia",
+    "countryCode": "GE",
+    "phoneCode": "+995",
+    "flag": "https://flagsapi.com/GE/flat/32.png"
+  },
+  {
+    "name": "New Zealand",
+    "countryCode": "NZ",
+    "phoneCode": "+64",
+    "flag": "https://flagsapi.com/NZ/flat/32.png"
+  },
+  {
+    "name": "Cape Verde",
+    "countryCode": "CV",
+    "phoneCode": "+238",
+    "flag": "https://flagsapi.com/CV/flat/32.png"
+  },
+  {
+    "name": "Italy",
+    "countryCode": "IT",
+    "phoneCode": "+39",
+    "flag": "https://flagsapi.com/IT/flat/32.png"
+  },
+  {
+    "name": "Monaco",
+    "countryCode": "MC",
+    "phoneCode": "+377",
+    "flag": "https://flagsapi.com/MC/flat/32.png"
+  },
+  {
+    "name": "Slovakia",
+    "countryCode": "SK",
+    "phoneCode": "+421",
+    "flag": "https://flagsapi.com/SK/flat/32.png"
+  },
+  {
+    "name": "Uruguay",
+    "countryCode": "UY",
+    "phoneCode": "+598",
+    "flag": "https://flagsapi.com/UY/flat/32.png"
+  },
+  {
+    "name": "Laos",
+    "countryCode": "LA",
+    "phoneCode": "+856",
+    "flag": "https://flagsapi.com/LA/flat/32.png"
+  },
+  {
+    "name": "Faroe Islands",
+    "countryCode": "FO",
+    "phoneCode": "+298",
+    "flag": "https://flagsapi.com/FO/flat/32.png"
+  },
+  {
+    "name": "Niue",
+    "countryCode": "NU",
+    "phoneCode": "+683",
+    "flag": "https://flagsapi.com/NU/flat/32.png"
+  },
+  {
+    "name": "North Macedonia",
+    "countryCode": "MK",
+    "phoneCode": "+389",
+    "flag": "https://flagsapi.com/MK/flat/32.png"
+  },
+  {
+    "name": "Chile",
+    "countryCode": "CL",
+    "phoneCode": "+56",
+    "flag": "https://flagsapi.com/CL/flat/32.png"
+  },
+  {
+    "name": "Cyprus",
+    "countryCode": "CY",
+    "phoneCode": "+357",
+    "flag": "https://flagsapi.com/CY/flat/32.png"
+  },
+  {
+    "name": "Macau",
+    "countryCode": "MO",
+    "phoneCode": "+853",
+    "flag": "https://flagsapi.com/MO/flat/32.png"
+  },
+  {
+    "name": "El Salvador",
+    "countryCode": "SV",
+    "phoneCode": "+503",
+    "flag": "https://flagsapi.com/SV/flat/32.png"
+  },
+  {
+    "name": "Jordan",
+    "countryCode": "JO",
+    "phoneCode": "+962",
+    "flag": "https://flagsapi.com/JO/flat/32.png"
+  },
+  {
+    "name": "Jamaica",
+    "countryCode": "JM",
+    "phoneCode": "+1876",
+    "flag": "https://flagsapi.com/JM/flat/32.png"
+  },
+  {
+    "name": "Barbados",
+    "countryCode": "BB",
+    "phoneCode": "+1246",
+    "flag": "https://flagsapi.com/BB/flat/32.png"
+  },
+  {
+    "name": "Western Sahara",
+    "countryCode": "EH",
+    "phoneCode": "+2125288",
+    "flag": "https://flagsapi.com/EH/flat/32.png"
+  },
+  {
+    "name": "Western Sahara",
+    "countryCode": "EH",
+    "phoneCode": "+2125289",
+    "flag": "https://flagsapi.com/EH/flat/32.png"
+  },
+  {
+    "name": "Qatar",
+    "countryCode": "QA",
+    "phoneCode": "+974",
+    "flag": "https://flagsapi.com/QA/flat/32.png"
+  },
+  {
+    "name": "Guatemala",
+    "countryCode": "GT",
+    "phoneCode": "+502",
+    "flag": "https://flagsapi.com/GT/flat/32.png"
+  },
+  {
+    "name": "Micronesia",
+    "countryCode": "FM",
+    "phoneCode": "+691",
+    "flag": "https://flagsapi.com/FM/flat/32.png"
+  },
+  {
+    "name": "Montserrat",
+    "countryCode": "MS",
+    "phoneCode": "+1664",
+    "flag": "https://flagsapi.com/MS/flat/32.png"
+  },
+  {
+    "name": "Papua New Guinea",
+    "countryCode": "PG",
+    "phoneCode": "+675",
+    "flag": "https://flagsapi.com/PG/flat/32.png"
+  },
+  {
+    "name": "Brazil",
+    "countryCode": "BR",
+    "phoneCode": "+55",
+    "flag": "https://flagsapi.com/BR/flat/32.png"
+  },
+  {
+    "name": "Lithuania",
+    "countryCode": "LT",
+    "phoneCode": "+370",
+    "flag": "https://flagsapi.com/LT/flat/32.png"
+  },
+  {
+    "name": "French Guiana",
+    "countryCode": "GF",
+    "phoneCode": "+594",
+    "flag": "https://flagsapi.com/GF/flat/32.png"
+  },
+  {
+    "name": "Moldova",
+    "countryCode": "MD",
+    "phoneCode": "+373",
+    "flag": "https://flagsapi.com/MD/flat/32.png"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "countryCode": "KG",
+    "phoneCode": "+996",
+    "flag": "https://flagsapi.com/KG/flat/32.png"
+  },
+  {
+    "name": "Curaçao",
+    "countryCode": "CW",
+    "phoneCode": "+599",
+    "flag": "https://flagsapi.com/CW/flat/32.png"
+  },
+  {
+    "name": "Vietnam",
+    "countryCode": "VN",
+    "phoneCode": "+84",
+    "flag": "https://flagsapi.com/VN/flat/32.png"
+  },
+  {
+    "name": "Angola",
+    "countryCode": "AO",
+    "phoneCode": "+244",
+    "flag": "https://flagsapi.com/AO/flat/32.png"
+  },
+  {
+    "name": "Malaysia",
+    "countryCode": "MY",
+    "phoneCode": "+60",
+    "flag": "https://flagsapi.com/MY/flat/32.png"
+  },
+  {
+    "name": "Switzerland",
+    "countryCode": "CH",
+    "phoneCode": "+41",
+    "flag": "https://flagsapi.com/CH/flat/32.png"
+  },
+  {
+    "name": "Thailand",
+    "countryCode": "TH",
+    "phoneCode": "+66",
+    "flag": "https://flagsapi.com/TH/flat/32.png"
+  },
+  {
+    "name": "Dominican Republic",
+    "countryCode": "DO",
+    "phoneCode": "+1809",
+    "flag": "https://flagsapi.com/DO/flat/32.png"
+  },
+  {
+    "name": "Dominican Republic",
+    "countryCode": "DO",
+    "phoneCode": "+1829",
+    "flag": "https://flagsapi.com/DO/flat/32.png"
+  },
+  {
+    "name": "Dominican Republic",
+    "countryCode": "DO",
+    "phoneCode": "+1849",
+    "flag": "https://flagsapi.com/DO/flat/32.png"
+  },
+  {
+    "name": "Uzbekistan",
+    "countryCode": "UZ",
+    "phoneCode": "+998",
+    "flag": "https://flagsapi.com/UZ/flat/32.png"
+  },
+  {
+    "name": "Chad",
+    "countryCode": "TD",
+    "phoneCode": "+235",
+    "flag": "https://flagsapi.com/TD/flat/32.png"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "countryCode": "CC",
+    "phoneCode": "+61",
+    "flag": "https://flagsapi.com/CC/flat/32.png"
+  },
+  {
+    "name": "Guinea",
+    "countryCode": "GN",
+    "phoneCode": "+224",
+    "flag": "https://flagsapi.com/GN/flat/32.png"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "countryCode": "TC",
+    "phoneCode": "+1649",
+    "flag": "https://flagsapi.com/TC/flat/32.png"
+  },
+  {
+    "name": "Puerto Rico",
+    "countryCode": "PR",
+    "phoneCode": "+1787",
+    "flag": "https://flagsapi.com/PR/flat/32.png"
+  },
+  {
+    "name": "Puerto Rico",
+    "countryCode": "PR",
+    "phoneCode": "+1939",
+    "flag": "https://flagsapi.com/PR/flat/32.png"
+  },
+  {
+    "name": "Bhutan",
+    "countryCode": "BT",
+    "phoneCode": "+975",
+    "flag": "https://flagsapi.com/BT/flat/32.png"
+  },
+  {
+    "name": "Cayman Islands",
+    "countryCode": "KY",
+    "phoneCode": "+1345",
+    "flag": "https://flagsapi.com/KY/flat/32.png"
+  },
+  {
+    "name": "Marshall Islands",
+    "countryCode": "MH",
+    "phoneCode": "+692",
+    "flag": "https://flagsapi.com/MH/flat/32.png"
+  },
+  {
+    "name": "Anguilla",
+    "countryCode": "AI",
+    "phoneCode": "+1264",
+    "flag": "https://flagsapi.com/AI/flat/32.png"
+  },
+  {
+    "name": "Mauritania",
+    "countryCode": "MR",
+    "phoneCode": "+222",
+    "flag": "https://flagsapi.com/MR/flat/32.png"
+  },
+  {
+    "name": "Norway",
+    "countryCode": "NO",
+    "phoneCode": "+47",
+    "flag": "https://flagsapi.com/NO/flat/32.png"
+  },
+  {
+    "name": "Martinique",
+    "countryCode": "MQ",
+    "phoneCode": "+596",
+    "flag": "https://flagsapi.com/MQ/flat/32.png"
+  },
+  {
+    "name": "Israel",
+    "countryCode": "IL",
+    "phoneCode": "+972",
+    "flag": "https://flagsapi.com/IL/flat/32.png"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "countryCode": "BL",
+    "phoneCode": "+590",
+    "flag": "https://flagsapi.com/BL/flat/32.png"
+  },
+  {
+    "name": "Ecuador",
+    "countryCode": "EC",
+    "phoneCode": "+593",
+    "flag": "https://flagsapi.com/EC/flat/32.png"
+  },
+  {
+    "name": "Grenada",
+    "countryCode": "GD",
+    "phoneCode": "+1473",
+    "flag": "https://flagsapi.com/GD/flat/32.png"
+  },
+  {
+    "name": "Croatia",
+    "countryCode": "HR",
+    "phoneCode": "+385",
+    "flag": "https://flagsapi.com/HR/flat/32.png"
+  },
+  {
+    "name": "Brunei",
+    "countryCode": "BN",
+    "phoneCode": "+673",
+    "flag": "https://flagsapi.com/BN/flat/32.png"
+  },
+  {
+    "name": "Iraq",
+    "countryCode": "IQ",
+    "phoneCode": "+964",
+    "flag": "https://flagsapi.com/IQ/flat/32.png"
+  },
+  {
+    "name": "Japan",
+    "countryCode": "JP",
+    "phoneCode": "+81",
+    "flag": "https://flagsapi.com/JP/flat/32.png"
+  },
+  {
+    "name": "Lesotho",
+    "countryCode": "LS",
+    "phoneCode": "+266",
+    "flag": "https://flagsapi.com/LS/flat/32.png"
+  },
+  {
+    "name": "Tuvalu",
+    "countryCode": "TV",
+    "phoneCode": "+688",
+    "flag": "https://flagsapi.com/TV/flat/32.png"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "countryCode": "HM",
+    "phoneCode": "",
+    "flag": "https://flagsapi.com/HM/flat/32.png"
+  },
+  {
+    "name": "Finland",
+    "countryCode": "FI",
+    "phoneCode": "+358",
+    "flag": "https://flagsapi.com/FI/flat/32.png"
+  },
+  {
+    "name": "South Sudan",
+    "countryCode": "SS",
+    "phoneCode": "+211",
+    "flag": "https://flagsapi.com/SS/flat/32.png"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "countryCode": "UM",
+    "phoneCode": "+268",
+    "flag": "https://flagsapi.com/UM/flat/32.png"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "countryCode": "SH",
+    "phoneCode": "+290",
+    "flag": "https://flagsapi.com/SH/flat/32.png"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "countryCode": "SH",
+    "phoneCode": "+247",
+    "flag": "https://flagsapi.com/SH/flat/32.png"
+  },
+  {
+    "name": "Afghanistan",
+    "countryCode": "AF",
+    "phoneCode": "+93",
+    "flag": "https://flagsapi.com/AF/flat/32.png"
+  },
+  {
+    "name": "Solomon Islands",
+    "countryCode": "SB",
+    "phoneCode": "+677",
+    "flag": "https://flagsapi.com/SB/flat/32.png"
+  },
+  {
+    "name": "China",
+    "countryCode": "CN",
+    "phoneCode": "+86",
+    "flag": "https://flagsapi.com/CN/flat/32.png"
+  },
+  {
+    "name": "Eritrea",
+    "countryCode": "ER",
+    "phoneCode": "+291",
+    "flag": "https://flagsapi.com/ER/flat/32.png"
+  },
+  {
+    "name": "Russia",
+    "countryCode": "RU",
+    "phoneCode": "+7",
+    "flag": "https://flagsapi.com/RU/flat/32.png"
+  },
+  {
+    "name": "Russia",
+    "countryCode": "RU",
+    "phoneCode": "+73",
+    "flag": "https://flagsapi.com/RU/flat/32.png"
+  },
+  {
+    "name": "Russia",
+    "countryCode": "RU",
+    "phoneCode": "+74",
+    "flag": "https://flagsapi.com/RU/flat/32.png"
+  },
+  {
+    "name": "Russia",
+    "countryCode": "RU",
+    "phoneCode": "+75",
+    "flag": "https://flagsapi.com/RU/flat/32.png"
+  },
+  {
+    "name": "Russia",
+    "countryCode": "RU",
+    "phoneCode": "+78",
+    "flag": "https://flagsapi.com/RU/flat/32.png"
+  },
+  {
+    "name": "Russia",
+    "countryCode": "RU",
+    "phoneCode": "+79",
+    "flag": "https://flagsapi.com/RU/flat/32.png"
+  },
+  {
+    "name": "Andorra",
+    "countryCode": "AD",
+    "phoneCode": "+376",
+    "flag": "https://flagsapi.com/AD/flat/32.png"
+  },
+  {
+    "name": "Armenia",
+    "countryCode": "AM",
+    "phoneCode": "+374",
+    "flag": "https://flagsapi.com/AM/flat/32.png"
+  },
+  {
+    "name": "Austria",
+    "countryCode": "AT",
+    "phoneCode": "+43",
+    "flag": "https://flagsapi.com/AT/flat/32.png"
+  },
+  {
+    "name": "Suriname",
+    "countryCode": "SR",
+    "phoneCode": "+597",
+    "flag": "https://flagsapi.com/SR/flat/32.png"
+  },
+  {
+    "name": "Spain",
+    "countryCode": "ES",
+    "phoneCode": "+34",
+    "flag": "https://flagsapi.com/ES/flat/32.png"
+  },
+  {
+    "name": "Tokelau",
+    "countryCode": "TK",
+    "phoneCode": "+690",
+    "flag": "https://flagsapi.com/TK/flat/32.png"
+  },
+  {
+    "name": "Bahamas",
+    "countryCode": "BS",
+    "phoneCode": "+1242",
+    "flag": "https://flagsapi.com/BS/flat/32.png"
+  },
+  {
+    "name": "Sint Maarten",
+    "countryCode": "SX",
+    "phoneCode": "+1721",
+    "flag": "https://flagsapi.com/SX/flat/32.png"
+  },
+  {
+    "name": "Belize",
+    "countryCode": "BZ",
+    "phoneCode": "+501",
+    "flag": "https://flagsapi.com/BZ/flat/32.png"
+  },
+  {
+    "name": "Jersey",
+    "countryCode": "JE",
+    "phoneCode": "+44",
+    "flag": "https://flagsapi.com/JE/flat/32.png"
+  },
+  {
+    "name": "Sweden",
+    "countryCode": "SE",
+    "phoneCode": "+46",
+    "flag": "https://flagsapi.com/SE/flat/32.png"
+  },
+  {
+    "name": "Botswana",
+    "countryCode": "BW",
+    "phoneCode": "+267",
+    "flag": "https://flagsapi.com/BW/flat/32.png"
+  },
+  {
+    "name": "Isle of Man",
+    "countryCode": "IM",
+    "phoneCode": "+44",
+    "flag": "https://flagsapi.com/IM/flat/32.png"
+  },
+  {
+    "name": "United Arab Emirates",
+    "countryCode": "AE",
+    "phoneCode": "+971",
+    "flag": "https://flagsapi.com/AE/flat/32.png"
+  },
+  {
+    "name": "Iran",
+    "countryCode": "IR",
+    "phoneCode": "+98",
+    "flag": "https://flagsapi.com/IR/flat/32.png"
+  },
+  {
+    "name": "Gabon",
+    "countryCode": "GA",
+    "phoneCode": "+241",
+    "flag": "https://flagsapi.com/GA/flat/32.png"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "countryCode": "KN",
+    "phoneCode": "+1869",
+    "flag": "https://flagsapi.com/KN/flat/32.png"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "countryCode": "GQ",
+    "phoneCode": "+240",
+    "flag": "https://flagsapi.com/GQ/flat/32.png"
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "countryCode": "ST",
+    "phoneCode": "+239",
+    "flag": "https://flagsapi.com/ST/flat/32.png"
+  },
+  {
+    "name": "Greenland",
+    "countryCode": "GL",
+    "phoneCode": "+299",
+    "flag": "https://flagsapi.com/GL/flat/32.png"
+  },
+  {
+    "name": "Bangladesh",
+    "countryCode": "BD",
+    "phoneCode": "+880",
+    "flag": "https://flagsapi.com/BD/flat/32.png"
+  },
+  {
+    "name": "Romania",
+    "countryCode": "RO",
+    "phoneCode": "+40",
+    "flag": "https://flagsapi.com/RO/flat/32.png"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "countryCode": "IO",
+    "phoneCode": "+246",
+    "flag": "https://flagsapi.com/IO/flat/32.png"
+  },
+  {
+    "name": "Sudan",
+    "countryCode": "SD",
+    "phoneCode": "+249",
+    "flag": "https://flagsapi.com/SD/flat/32.png"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "countryCode": "BA",
+    "phoneCode": "+387",
+    "flag": "https://flagsapi.com/BA/flat/32.png"
+  },
+  {
+    "name": "Malta",
+    "countryCode": "MT",
+    "phoneCode": "+356",
+    "flag": "https://flagsapi.com/MT/flat/32.png"
+  },
+  {
+    "name": "Seychelles",
+    "countryCode": "SC",
+    "phoneCode": "+248",
+    "flag": "https://flagsapi.com/SC/flat/32.png"
+  },
+  {
+    "name": "Sri Lanka",
+    "countryCode": "LK",
+    "phoneCode": "+94",
+    "flag": "https://flagsapi.com/LK/flat/32.png"
+  },
+  {
+    "name": "Mexico",
+    "countryCode": "MX",
+    "phoneCode": "+52",
+    "flag": "https://flagsapi.com/MX/flat/32.png"
+  },
+  {
+    "name": "Yemen",
+    "countryCode": "YE",
+    "phoneCode": "+967",
+    "flag": "https://flagsapi.com/YE/flat/32.png"
+  },
+  {
+    "name": "British Virgin Islands",
+    "countryCode": "VG",
+    "phoneCode": "+1284",
+    "flag": "https://flagsapi.com/VG/flat/32.png"
+  },
+  {
+    "name": "Netherlands",
+    "countryCode": "NL",
+    "phoneCode": "+31",
+    "flag": "https://flagsapi.com/NL/flat/32.png"
+  },
+  {
+    "name": "Paraguay",
+    "countryCode": "PY",
+    "phoneCode": "+595",
+    "flag": "https://flagsapi.com/PY/flat/32.png"
+  },
+  {
+    "name": "United Kingdom",
+    "countryCode": "GB",
+    "phoneCode": "+44",
+    "flag": "https://flagsapi.com/GB/flat/32.png"
+  },
+  {
+    "name": "Venezuela",
+    "countryCode": "VE",
+    "phoneCode": "+58",
+    "flag": "https://flagsapi.com/VE/flat/32.png"
+  },
+  {
+    "name": "Bouvet Island",
+    "countryCode": "BV",
+    "phoneCode": "+47",
+    "flag": "https://flagsapi.com/BV/flat/32.png"
+  },
+  {
+    "name": "Ukraine",
+    "countryCode": "UA",
+    "phoneCode": "+380",
+    "flag": "https://flagsapi.com/UA/flat/32.png"
+  },
+  {
+    "name": "Morocco",
+    "countryCode": "MA",
+    "phoneCode": "+212",
+    "flag": "https://flagsapi.com/MA/flat/32.png"
+  },
+  {
+    "name": "Portugal",
+    "countryCode": "PT",
+    "phoneCode": "+351",
+    "flag": "https://flagsapi.com/PT/flat/32.png"
+  },
+  {
+    "name": "Pakistan",
+    "countryCode": "PK",
+    "phoneCode": "+92",
+    "flag": "https://flagsapi.com/PK/flat/32.png"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "countryCode": "VC",
+    "phoneCode": "+1784",
+    "flag": "https://flagsapi.com/VC/flat/32.png"
+  },
+  {
+    "name": "North Korea",
+    "countryCode": "KP",
+    "phoneCode": "+850",
+    "flag": "https://flagsapi.com/KP/flat/32.png"
+  },
+  {
+    "name": "Slovenia",
+    "countryCode": "SI",
+    "phoneCode": "+386",
+    "flag": "https://flagsapi.com/SI/flat/32.png"
+  },
+  {
+    "name": "Ivory Coast",
+    "countryCode": "CI",
+    "phoneCode": "+225",
+    "flag": "https://flagsapi.com/CI/flat/32.png"
+  },
+  {
+    "name": "Palestine",
+    "countryCode": "PS",
+    "phoneCode": "+970",
+    "flag": "https://flagsapi.com/PS/flat/32.png"
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "countryCode": "BQ",
+    "phoneCode": "+599",
+    "flag": "https://flagsapi.com/BQ/flat/32.png"
+  },
+  {
+    "name": "Belgium",
+    "countryCode": "BE",
+    "phoneCode": "+32",
+    "flag": "https://flagsapi.com/BE/flat/32.png"
+  },
+  {
+    "name": "Zimbabwe",
+    "countryCode": "ZW",
+    "phoneCode": "+263",
+    "flag": "https://flagsapi.com/ZW/flat/32.png"
+  },
+  {
+    "name": "Tanzania",
+    "countryCode": "TZ",
+    "phoneCode": "+255",
+    "flag": "https://flagsapi.com/TZ/flat/32.png"
+  },
+  {
+    "name": "Togo",
+    "countryCode": "TG",
+    "phoneCode": "+228",
+    "flag": "https://flagsapi.com/TG/flat/32.png"
+  },
+  {
+    "name": "Cook Islands",
+    "countryCode": "CK",
+    "phoneCode": "+682",
+    "flag": "https://flagsapi.com/CK/flat/32.png"
+  },
+  {
+    "name": "Guadeloupe",
+    "countryCode": "GP",
+    "phoneCode": "+590",
+    "flag": "https://flagsapi.com/GP/flat/32.png"
+  },
+  {
+    "name": "New Caledonia",
+    "countryCode": "NC",
+    "phoneCode": "+687",
+    "flag": "https://flagsapi.com/NC/flat/32.png"
+  },
+  {
+    "name": "Saint Lucia",
+    "countryCode": "LC",
+    "phoneCode": "+1758",
+    "flag": "https://flagsapi.com/LC/flat/32.png"
+  },
+  {
+    "name": "South Georgia",
+    "countryCode": "GS",
+    "phoneCode": "+500",
+    "flag": "https://flagsapi.com/GS/flat/32.png"
+  },
+  {
+    "name": "Poland",
+    "countryCode": "PL",
+    "phoneCode": "+48",
+    "flag": "https://flagsapi.com/PL/flat/32.png"
+  },
+  {
+    "name": "Samoa",
+    "countryCode": "WS",
+    "phoneCode": "+685",
+    "flag": "https://flagsapi.com/WS/flat/32.png"
+  },
+  {
+    "name": "Czechia",
+    "countryCode": "CZ",
+    "phoneCode": "+420",
+    "flag": "https://flagsapi.com/CZ/flat/32.png"
+  },
+  {
+    "name": "Indonesia",
+    "countryCode": "ID",
+    "phoneCode": "+62",
+    "flag": "https://flagsapi.com/ID/flat/32.png"
+  },
+  {
+    "name": "Bolivia",
+    "countryCode": "BO",
+    "phoneCode": "+591",
+    "flag": "https://flagsapi.com/BO/flat/32.png"
+  },
+  {
+    "name": "Colombia",
+    "countryCode": "CO",
+    "phoneCode": "+57",
+    "flag": "https://flagsapi.com/CO/flat/32.png"
+  },
+  {
+    "name": "Honduras",
+    "countryCode": "HN",
+    "phoneCode": "+504",
+    "flag": "https://flagsapi.com/HN/flat/32.png"
+  },
+  {
+    "name": "Denmark",
+    "countryCode": "DK",
+    "phoneCode": "+45",
+    "flag": "https://flagsapi.com/DK/flat/32.png"
+  },
+  {
+    "name": "Central African Republic",
+    "countryCode": "CF",
+    "phoneCode": "+236",
+    "flag": "https://flagsapi.com/CF/flat/32.png"
+  },
+  {
+    "name": "Libya",
+    "countryCode": "LY",
+    "phoneCode": "+218",
+    "flag": "https://flagsapi.com/LY/flat/32.png"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "countryCode": "GW",
+    "phoneCode": "+245",
+    "flag": "https://flagsapi.com/GW/flat/32.png"
+  },
+  {
+    "name": "Mongolia",
+    "countryCode": "MN",
+    "phoneCode": "+976",
+    "flag": "https://flagsapi.com/MN/flat/32.png"
+  },
+  {
+    "name": "DR Congo",
+    "countryCode": "CD",
+    "phoneCode": "+243",
+    "flag": "https://flagsapi.com/CD/flat/32.png"
+  },
+  {
+    "name": "Falkland Islands",
+    "countryCode": "FK",
+    "phoneCode": "+500",
+    "flag": "https://flagsapi.com/FK/flat/32.png"
+  },
+  {
+    "name": "Nauru",
+    "countryCode": "NR",
+    "phoneCode": "+674",
+    "flag": "https://flagsapi.com/NR/flat/32.png"
+  },
+  {
+    "name": "Syria",
+    "countryCode": "SY",
+    "phoneCode": "+963",
+    "flag": "https://flagsapi.com/SY/flat/32.png"
+  },
+  {
+    "name": "Montenegro",
+    "countryCode": "ME",
+    "phoneCode": "+382",
+    "flag": "https://flagsapi.com/ME/flat/32.png"
+  },
+  {
+    "name": "France",
+    "countryCode": "FR",
+    "phoneCode": "+33",
+    "flag": "https://flagsapi.com/FR/flat/32.png"
+  },
+  {
+    "name": "Zambia",
+    "countryCode": "ZM",
+    "phoneCode": "+260",
+    "flag": "https://flagsapi.com/ZM/flat/32.png"
+  },
+  {
+    "name": "Myanmar",
+    "countryCode": "MM",
+    "phoneCode": "+95",
+    "flag": "https://flagsapi.com/MM/flat/32.png"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "countryCode": "PM",
+    "phoneCode": "+508",
+    "flag": "https://flagsapi.com/PM/flat/32.png"
+  },
+  {
+    "name": "Costa Rica",
+    "countryCode": "CR",
+    "phoneCode": "+506",
+    "flag": "https://flagsapi.com/CR/flat/32.png"
+  },
+  {
+    "name": "Somalia",
+    "countryCode": "SO",
+    "phoneCode": "+252",
+    "flag": "https://flagsapi.com/SO/flat/32.png"
+  },
+  {
+    "name": "Ireland",
+    "countryCode": "IE",
+    "phoneCode": "+353",
+    "flag": "https://flagsapi.com/IE/flat/32.png"
+  },
+  {
+    "name": "French Polynesia",
+    "countryCode": "PF",
+    "phoneCode": "+689",
+    "flag": "https://flagsapi.com/PF/flat/32.png"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "countryCode": "PN",
+    "phoneCode": "+64",
+    "flag": "https://flagsapi.com/PN/flat/32.png"
+  },
+  {
+    "name": "Hungary",
+    "countryCode": "HU",
+    "phoneCode": "+36",
+    "flag": "https://flagsapi.com/HU/flat/32.png"
+  },
+  {
+    "name": "Turkey",
+    "countryCode": "TR",
+    "phoneCode": "+90",
+    "flag": "https://flagsapi.com/TR/flat/32.png"
+  },
+  {
+    "name": "Oman",
+    "countryCode": "OM",
+    "phoneCode": "+968",
+    "flag": "https://flagsapi.com/OM/flat/32.png"
+  },
+  {
+    "name": "Guam",
+    "countryCode": "GU",
+    "phoneCode": "+1671",
+    "flag": "https://flagsapi.com/GU/flat/32.png"
+  },
+  {
+    "name": "Nepal",
+    "countryCode": "NP",
+    "phoneCode": "+977",
+    "flag": "https://flagsapi.com/NP/flat/32.png"
+  },
+  {
+    "name": "Liechtenstein",
+    "countryCode": "LI",
+    "phoneCode": "+423",
+    "flag": "https://flagsapi.com/LI/flat/32.png"
+  },
+  {
+    "name": "Madagascar",
+    "countryCode": "MG",
+    "phoneCode": "+261",
+    "flag": "https://flagsapi.com/MG/flat/32.png"
+  },
+  {
+    "name": "Kazakhstan",
+    "countryCode": "KZ",
+    "phoneCode": "+76",
+    "flag": "https://flagsapi.com/KZ/flat/32.png"
+  },
+  {
+    "name": "Kazakhstan",
+    "countryCode": "KZ",
+    "phoneCode": "+77",
+    "flag": "https://flagsapi.com/KZ/flat/32.png"
+  },
+  {
+    "name": "Djibouti",
+    "countryCode": "DJ",
+    "phoneCode": "+253",
+    "flag": "https://flagsapi.com/DJ/flat/32.png"
+  },
+  {
+    "name": "Gibraltar",
+    "countryCode": "GI",
+    "phoneCode": "+350",
+    "flag": "https://flagsapi.com/GI/flat/32.png"
+  },
+  {
+    "name": "Guernsey",
+    "countryCode": "GG",
+    "phoneCode": "+44",
+    "flag": "https://flagsapi.com/GG/flat/32.png"
+  },
+  {
+    "name": "Namibia",
+    "countryCode": "NA",
+    "phoneCode": "+264",
+    "flag": "https://flagsapi.com/NA/flat/32.png"
+  },
+  {
+    "name": "Republic of the Congo",
+    "countryCode": "CG",
+    "phoneCode": "+242",
+    "flag": "https://flagsapi.com/CG/flat/32.png"
+  },
+  {
+    "name": "Germany",
+    "countryCode": "DE",
+    "phoneCode": "+49",
+    "flag": "https://flagsapi.com/DE/flat/32.png"
+  },
+  {
+    "name": "Vatican City",
+    "countryCode": "VA",
+    "phoneCode": "+3906698",
+    "flag": "https://flagsapi.com/VA/flat/32.png"
+  },
+  {
+    "name": "Vatican City",
+    "countryCode": "VA",
+    "phoneCode": "+379",
+    "flag": "https://flagsapi.com/VA/flat/32.png"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "countryCode": "TF",
+    "phoneCode": "+262",
+    "flag": "https://flagsapi.com/TF/flat/32.png"
+  },
+  {
+    "name": "Albania",
+    "countryCode": "AL",
+    "phoneCode": "+355",
+    "flag": "https://flagsapi.com/AL/flat/32.png"
+  },
+  {
+    "name": "Algeria",
+    "countryCode": "DZ",
+    "phoneCode": "+213",
+    "flag": "https://flagsapi.com/DZ/flat/32.png"
+  },
+  {
+    "name": "Mayotte",
+    "countryCode": "YT",
+    "phoneCode": "+262",
+    "flag": "https://flagsapi.com/YT/flat/32.png"
+  },
+  {
+    "name": "Haiti",
+    "countryCode": "HT",
+    "phoneCode": "+509",
+    "flag": "https://flagsapi.com/HT/flat/32.png"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "countryCode": "SJ",
+    "phoneCode": "+4779",
+    "flag": "https://flagsapi.com/SJ/flat/32.png"
+  },
+  {
+    "name": "Tonga",
+    "countryCode": "TO",
+    "phoneCode": "+676",
+    "flag": "https://flagsapi.com/TO/flat/32.png"
+  },
+  {
+    "name": "Hong Kong",
+    "countryCode": "HK",
+    "phoneCode": "+852",
+    "flag": "https://flagsapi.com/HK/flat/32.png"
+  },
+  {
+    "name": "Singapore",
+    "countryCode": "SG",
+    "phoneCode": "+65",
+    "flag": "https://flagsapi.com/SG/flat/32.png"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "countryCode": "AG",
+    "phoneCode": "+1268",
+    "flag": "https://flagsapi.com/AG/flat/32.png"
+  },
+  {
+    "name": "Saudi Arabia",
+    "countryCode": "SA",
+    "phoneCode": "+966",
+    "flag": "https://flagsapi.com/SA/flat/32.png"
+  },
+  {
+    "name": "Cuba",
+    "countryCode": "CU",
+    "phoneCode": "+53",
+    "flag": "https://flagsapi.com/CU/flat/32.png"
+  },
+  {
+    "name": "Panama",
+    "countryCode": "PA",
+    "phoneCode": "+507",
+    "flag": "https://flagsapi.com/PA/flat/32.png"
+  },
+  {
+    "name": "Liberia",
+    "countryCode": "LR",
+    "phoneCode": "+231",
+    "flag": "https://flagsapi.com/LR/flat/32.png"
+  },
+  {
+    "name": "Azerbaijan",
+    "countryCode": "AZ",
+    "phoneCode": "+994",
+    "flag": "https://flagsapi.com/AZ/flat/32.png"
+  },
+  {
+    "name": "Latvia",
+    "countryCode": "LV",
+    "phoneCode": "+371",
+    "flag": "https://flagsapi.com/LV/flat/32.png"
+  },
+  {
+    "name": "Antarctica",
+    "countryCode": "AQ",
+    "phoneCode": "",
+    "flag": "https://flagsapi.com/AQ/flat/32.png"
+  },
+  {
+    "name": "Kiribati",
+    "countryCode": "KI",
+    "phoneCode": "+686",
+    "flag": "https://flagsapi.com/KI/flat/32.png"
+  },
+  {
+    "name": "Ethiopia",
+    "countryCode": "ET",
+    "phoneCode": "+251",
+    "flag": "https://flagsapi.com/ET/flat/32.png"
+  },
+  {
+    "name": "Niger",
+    "countryCode": "NE",
+    "phoneCode": "+227",
+    "flag": "https://flagsapi.com/NE/flat/32.png"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "countryCode": "TT",
+    "phoneCode": "+1868",
+    "flag": "https://flagsapi.com/TT/flat/32.png"
+  },
+  {
+    "name": "Sierra Leone",
+    "countryCode": "SL",
+    "phoneCode": "+232",
+    "flag": "https://flagsapi.com/SL/flat/32.png"
+  },
+  {
+    "name": "Mozambique",
+    "countryCode": "MZ",
+    "phoneCode": "+258",
+    "flag": "https://flagsapi.com/MZ/flat/32.png"
+  },
+  {
+    "name": "Palau",
+    "countryCode": "PW",
+    "phoneCode": "+680",
+    "flag": "https://flagsapi.com/PW/flat/32.png"
+  },
+  {
+    "name": "Fiji",
+    "countryCode": "FJ",
+    "phoneCode": "+679",
+    "flag": "https://flagsapi.com/FJ/flat/32.png"
+  },
+  {
+    "name": "Réunion",
+    "countryCode": "RE",
+    "phoneCode": "+262",
+    "flag": "https://flagsapi.com/RE/flat/32.png"
+  },
+  {
+    "name": "Norfolk Island",
+    "countryCode": "NF",
+    "phoneCode": "+672",
+    "flag": "https://flagsapi.com/NF/flat/32.png"
+  },
+  {
+    "name": "Turkmenistan",
+    "countryCode": "TM",
+    "phoneCode": "+993",
+    "flag": "https://flagsapi.com/TM/flat/32.png"
+  },
+  {
+    "name": "Tajikistan",
+    "countryCode": "TJ",
+    "phoneCode": "+992",
+    "flag": "https://flagsapi.com/TJ/flat/32.png"
+  },
+  {
+    "name": "Lebanon",
+    "countryCode": "LB",
+    "phoneCode": "+961",
+    "flag": "https://flagsapi.com/LB/flat/32.png"
+  },
+  {
+    "name": "Nigeria",
+    "countryCode": "NG",
+    "phoneCode": "+234",
+    "flag": "https://flagsapi.com/NG/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1201",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1202",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1203",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1205",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1206",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1207",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1208",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1209",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1210",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1212",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1213",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1214",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1215",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1216",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1217",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1218",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1219",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1220",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1224",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1225",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1227",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1228",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1229",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1231",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1234",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1239",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1240",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1248",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1251",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1252",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1253",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1254",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1256",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1260",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1262",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1267",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1269",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1270",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1272",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1274",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1276",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1281",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1283",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1301",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1302",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1303",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1304",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1305",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1307",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1308",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1309",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1310",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1312",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1313",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1314",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1315",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1316",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1317",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1318",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1319",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1320",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1321",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1323",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1325",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1327",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1330",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1331",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1334",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1336",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1337",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1339",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1346",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1347",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1351",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1352",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1360",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1361",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1364",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1380",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1385",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1386",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1401",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1402",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1404",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1405",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1406",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1407",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1408",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1409",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1410",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1412",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1413",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1414",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1415",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1417",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1419",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1423",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1424",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1425",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1430",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1432",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1434",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1435",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1440",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1442",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1443",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1447",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1458",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1463",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1464",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1469",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1470",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1475",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1478",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1479",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1480",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1484",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1501",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1502",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1503",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1504",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1505",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1507",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1508",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1509",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1510",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1512",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1513",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1515",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1516",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1517",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1518",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1520",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1530",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1531",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1534",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1539",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1540",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1541",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1551",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1559",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1561",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1562",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1563",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1564",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1567",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1570",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1571",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1573",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1574",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1575",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1580",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1585",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1586",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1601",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1602",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1603",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1605",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1606",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1607",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1608",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1609",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1610",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1612",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1614",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1615",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1616",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1617",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1618",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1619",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1620",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1623",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1626",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1628",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1629",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1630",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1631",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1636",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1641",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1646",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1650",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1651",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1657",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1660",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1661",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1662",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1667",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1669",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1678",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1681",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1682",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1701",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1702",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1703",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1704",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1706",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1707",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1708",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1712",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1713",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1714",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1715",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1716",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1717",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1718",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1719",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1720",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1724",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1725",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1727",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1730",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1731",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1732",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1734",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1737",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1740",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1743",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1747",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1754",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1757",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1760",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1762",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1763",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1765",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1769",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1770",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1772",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1773",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1774",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1775",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1779",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1781",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1785",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1786",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1801",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1802",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1803",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1804",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1805",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1806",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1808",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1810",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1812",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1813",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1814",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1815",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1816",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1817",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1818",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1828",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1830",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1831",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1832",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1843",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1845",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1847",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1848",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1850",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1854",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1856",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1857",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1858",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1859",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1860",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1862",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1863",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1864",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1865",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1870",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1872",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1878",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1901",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1903",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1904",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1906",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1907",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1908",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1909",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1910",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1912",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1913",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1914",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1915",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1916",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1917",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1918",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1919",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1920",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1925",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1928",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1929",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1930",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1931",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1934",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1936",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1937",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1938",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1940",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1941",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1947",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1949",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1951",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1952",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1954",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1956",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1959",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1970",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1971",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1972",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1973",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1975",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1978",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1979",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1980",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1984",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1985",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "United States",
+    "countryCode": "US",
+    "phoneCode": "+1989",
+    "flag": "https://flagsapi.com/US/flat/32.png"
+  },
+  {
+    "name": "Argentina",
+    "countryCode": "AR",
+    "phoneCode": "+54",
+    "flag": "https://flagsapi.com/AR/flat/32.png"
+  },
+  {
+    "name": "Burkina Faso",
+    "countryCode": "BF",
+    "phoneCode": "+226",
+    "flag": "https://flagsapi.com/BF/flat/32.png"
+  },
+  {
+    "name": "Christmas Island",
+    "countryCode": "CX",
+    "phoneCode": "+61",
+    "flag": "https://flagsapi.com/CX/flat/32.png"
+  },
+  {
+    "name": "Bermuda",
+    "countryCode": "BM",
+    "phoneCode": "+1441",
+    "flag": "https://flagsapi.com/BM/flat/32.png"
+  },
+  {
+    "name": "Nicaragua",
+    "countryCode": "NI",
+    "phoneCode": "+505",
+    "flag": "https://flagsapi.com/NI/flat/32.png"
+  },
+  {
+    "name": "Eswatini",
+    "countryCode": "SZ",
+    "phoneCode": "+268",
+    "flag": "https://flagsapi.com/SZ/flat/32.png"
+  },
+  {
+    "name": "Bahrain",
+    "countryCode": "BH",
+    "phoneCode": "+973",
+    "flag": "https://flagsapi.com/BH/flat/32.png"
+  },
+  {
+    "name": "Kenya",
+    "countryCode": "KE",
+    "phoneCode": "+254",
+    "flag": "https://flagsapi.com/KE/flat/32.png"
+  },
+  {
+    "name": "Serbia",
+    "countryCode": "RS",
+    "phoneCode": "+381",
+    "flag": "https://flagsapi.com/RS/flat/32.png"
+  },
+  {
+    "name": "Timor-Leste",
+    "countryCode": "TL",
+    "phoneCode": "+670",
+    "flag": "https://flagsapi.com/TL/flat/32.png"
+  },
+  {
+    "name": "Dominica",
+    "countryCode": "DM",
+    "phoneCode": "+1767",
+    "flag": "https://flagsapi.com/DM/flat/32.png"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "countryCode": "MP",
+    "phoneCode": "+1670",
+    "flag": "https://flagsapi.com/MP/flat/32.png"
+  },
+  {
+    "name": "Philippines",
+    "countryCode": "PH",
+    "phoneCode": "+63",
+    "flag": "https://flagsapi.com/PH/flat/32.png"
+  },
+  {
+    "name": "Kosovo",
+    "countryCode": "XK",
+    "phoneCode": "+383",
+    "flag": "https://flagsapi.com/XK/flat/32.png"
+  },
+  {
+    "name": "Kuwait",
+    "countryCode": "KW",
+    "phoneCode": "+965",
+    "flag": "https://flagsapi.com/KW/flat/32.png"
+  },
+  {
+    "name": "Taiwan",
+    "countryCode": "TW",
+    "phoneCode": "+886",
+    "flag": "https://flagsapi.com/TW/flat/32.png"
+  },
+  {
+    "name": "Burundi",
+    "countryCode": "BI",
+    "phoneCode": "+257",
+    "flag": "https://flagsapi.com/BI/flat/32.png"
+  },
+  {
+    "name": "American Samoa",
+    "countryCode": "AS",
+    "phoneCode": "+1684",
+    "flag": "https://flagsapi.com/AS/flat/32.png"
+  },
+  {
+    "name": "Bulgaria",
+    "countryCode": "BG",
+    "phoneCode": "+359",
+    "flag": "https://flagsapi.com/BG/flat/32.png"
+  },
+  {
+    "name": "South Africa",
+    "countryCode": "ZA",
+    "phoneCode": "+27",
+    "flag": "https://flagsapi.com/ZA/flat/32.png"
+  },
+  {
+    "name": "Peru",
+    "countryCode": "PE",
+    "phoneCode": "+51",
+    "flag": "https://flagsapi.com/PE/flat/32.png"
+  },
+  {
+    "name": "Aruba",
+    "countryCode": "AW",
+    "phoneCode": "+297",
+    "flag": "https://flagsapi.com/AW/flat/32.png"
+  },
+  {
+    "name": "Ghana",
+    "countryCode": "GH",
+    "phoneCode": "+233",
+    "flag": "https://flagsapi.com/GH/flat/32.png"
+  },
+  {
+    "name": "Saint Martin",
+    "countryCode": "MF",
+    "phoneCode": "+590",
+    "flag": "https://flagsapi.com/MF/flat/32.png"
+  },
+  {
+    "name": "India",
+    "countryCode": "IN",
+    "phoneCode": "+91",
+    "flag": "https://flagsapi.com/IN/flat/32.png"
+  },
+  {
+    "name": "Uganda",
+    "countryCode": "UG",
+    "phoneCode": "+256",
+    "flag": "https://flagsapi.com/UG/flat/32.png"
+  }
+]
