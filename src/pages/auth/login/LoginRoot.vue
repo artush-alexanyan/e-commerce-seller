@@ -1,10 +1,11 @@
 <template>
   <div class="">
+    <AuthNavbar />
     <div class="loading-state flex items-center justify-center py-20" v-if="authLoading">
       <BaseLoader />
     </div>
     <div class="flex items-center justify-center h-screen" v-else>
-      <div class="min-w-[400px]">
+      <div class="md:w-[400px] w-full p-5">
         <p class="text-3xl text-center mb-10">Login page</p>
         <div class="">
           <form @submit.prevent="loginSeller" action="">
@@ -17,7 +18,11 @@
               :type="'email'"
               :icon-name="'uil:at'"
               :placeholder="'Enter your email'"
-            />
+            >
+              <template #input-icon>
+                <IconEnvelope />
+              </template>
+            </BaseInput>
 
             <BaseInput
               class="mt-5"
@@ -25,10 +30,23 @@
               :label="'Password'"
               :name="'password'"
               :id="'password'"
-              :type="'password'"
+              :type="showPassword ? 'text' : 'password'"
               :icon-name="'uil:lock'"
               :placeholder="'Enter your password'"
-            />
+            >
+              <template #input-icon><IconLock /></template>
+              <template #input-icon-right>
+                <button
+                  type="button"
+                  name="Toggle password"
+                  aria-label="Toggle password"
+                  @click="togglePassword"
+                >
+                  <IconEye v-if="showPassword" />
+                  <IconEyeClosed v-else />
+                </button>
+              </template>
+            </BaseInput>
             <button
               type="submit"
               :disabled="loginLoading"
@@ -50,22 +68,31 @@
 <script setup>
 import BaseInput from '@/components/base/BaseInput.vue'
 import BaseLoader from '@/components/base/BaseLoader.vue'
-import IconUser from '@/components/icons/IconUser.vue'
 import IconSpinner from '@/components/icons/IconSpinner.vue'
 import BaseAlert from '@/components/base/BaseAlert.vue'
 import { useRegisterStore } from '@/store/auth/register'
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import API from '@/api/api'
+import IconEnvelope from '@/components/icons/IconEnvelope.vue'
+import IconLock from '@/components/icons/IconLock.vue'
+import IconEyeClosed from '@/components/icons/IconEyeClosed.vue'
+import IconEye from '@/components/icons/IconEye.vue'
+import AuthNavbar from '../components/AuthNavbar.vue'
 
 const router = useRouter()
 const registerStore = useRegisterStore()
 const authLoading = computed(() => registerStore.authLoading)
 
 const email = ref('')
-const password = ref('Tester2024!')
+const password = ref('')
 const loginLoading = ref(false)
 const loginMessages = ref([])
+const showPassword = ref(false)
+
+const togglePassword = () => {
+  showPassword.value = !showPassword.value
+}
 
 const loginSeller = async () => {
   loginLoading.value = true
@@ -79,7 +106,6 @@ const loginSeller = async () => {
       `Login successful for the seller - ${response.data.seller.name} ${response.data.seller.lastName}`
     )
     const sellerStatus = response.data.seller.status
-    console.log('seller status', sellerStatus)
 
     const protectedRoutes = [
       'registration',
@@ -89,20 +115,15 @@ const loginSeller = async () => {
     ]
 
     const matchedRoutes = protectedRoutes.filter((item) => sellerStatus === item)
-    console.log('matchedRoutes', matchedRoutes)
     if (matchedRoutes.length === 0) {
       return
     }
     const routeEndpoit = matchedRoutes[0]
-    console.log('routeEndpoit', routeEndpoit)
     const nextRouteIndex = protectedRoutes.indexOf(routeEndpoit) + 1
-    console.log('nextRouteIndex', nextRouteIndex)
     const nextRouteEndpoint = protectedRoutes[nextRouteIndex]
-    console.log('nextRouteEndpoint', nextRouteEndpoint)
     router.push({ path: `/auth/register/${nextRouteEndpoint}` })
   } catch (error) {
     loginLoading.value = false
-    console.error('errr', error)
     console.error(error.response ? error.response.message : error.response)
     alert('Login error', error.response ? error.response.message : error.response)
   }

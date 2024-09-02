@@ -6,7 +6,7 @@
         <slot name="input-icon"></slot>
       </div>
 
-      <div class="absolute z-20 top-1/2 transform -translate-y-1/2 right-1.5">
+      <div class="absolute z-20 top-1/2 transform -translate-y-1/2 right-3.5">
         <slot name="input-icon-right"></slot>
       </div>
 

@@ -33,14 +33,15 @@
       <div class="flex items-center w-full my-5 space-x-2.5">
         <p>Did not get a code?</p>
         <button
-          :disabled="verifing"
+          @click="sendVerificatioEmail"
+          :disabled="emailSending"
           type="button"
           aria-label="Resend code"
           name="Resend code"
           class="rounded-lg text-indigo-600 flex items-center justify-center space-x-1"
         >
           <span>Resend</span>
-          <!-- <IconSpinner :stroke="'#4f46e5'" :icon-class="'h-4'" /> -->
+          <IconSpinner v-if="emailSending" :stroke="'#4f46e5'" :icon-class="'h-4'" />
         </button>
       </div>
     </div>
@@ -59,6 +60,7 @@ const emailStore = useEmailStore()
 const verificationCode = ref('')
 const verifing = computed(() => emailStore.emailVerifying)
 const emailMessages = computed(() => emailStore.emailMessages)
+const emailSending = computed(() => emailStore.emailSending)
 
 const verifyEmail = async () => {
   const code = verificationCode.value
@@ -74,4 +76,8 @@ const getValidationError = computed(() => {
     return 'Code should be maximum 6 characters length'
   }
 })
+
+const sendVerificatioEmail = async () => {
+  await emailStore.sendVerificatioEmail()
+}
 </script>
