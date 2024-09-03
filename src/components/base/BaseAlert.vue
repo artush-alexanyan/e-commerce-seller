@@ -5,7 +5,7 @@
       leave-active-class="animate__animated animate__bounceOutRight"
     >
       <div
-        class="base-alert-component md:w-96 w-full rounded-xl fixed top-2 right-2"
+        class="base-alert-component md:w-96 w-full rounded-xl fixed z-50 top-2 right-2"
         v-if="props.messages && props.messages.length > 0"
       >
         <div

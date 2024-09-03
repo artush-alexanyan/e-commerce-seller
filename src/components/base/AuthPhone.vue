@@ -1,7 +1,7 @@
 <template>
-  <div class="auth-div min-w-80">
+  <div class="min-w-80">
     <div class="flex flex-col">
-      <label for="phone-input">Enter your phone number to get verified</label>
+      <label :class="themeText" for="phone-input">Enter your phone number to get verified</label>
       <div class="relative w-full mt-2.5">
         <div class="absolute z-30 left-1.5 top-1/2 -translate-y-1/2 transform">
           <div class="relative">
@@ -13,11 +13,12 @@
               class="flex items-center space-x-1.5 p-1 rounded-lg m-1"
             >
               <img class="h-6 mr-1.5" :src="selectedPhoneCode.flag" :alt="selectedPhoneCode.name" />
-              <span>({{ selectedPhoneCode.phoneCode }})</span>
+              <span :class="themeText">({{ selectedPhoneCode.phoneCode }})</span>
             </button>
             <div
               v-if="showCountryCodes"
-              class="absolute z-30 rounded-b-xl left-0 top-10 bg-white border border-gray-200 border-t-0 p-2.5 min-w-60 h-60 overflow-y-auto"
+              :class="inputBg"
+              class="absolute z-30 rounded-b-xl left-0 top-10 border border-gray-200 border-t-0 p-2.5 min-w-60 h-60 overflow-y-auto"
             >
               <ul>
                 <li
@@ -42,7 +43,8 @@
           @input="updatePhoneModel"
           type="text"
           :id="phoneInputId"
-          class="rounded-lg border-2 border-gray-200 pl-[95px] pr-5 py-2.5 w-full focus:border-purple-500 outline-0"
+          :class="inputBg"
+          class="rounded-lg border-2 border-gray-200 pl-[95px] pr-5 py-3.5 w-full focus:border-purple-500 outline-0 transition-all duration-300"
         />
       </div>
       <button
@@ -50,7 +52,7 @@
         @click="emit('get-code')"
         type="button"
         name="auth"
-        class="rounded-lg bg-purple-600 text-white px-5 py-2.5 mt-5"
+        class="rounded-lg bg-purple-600 text-white px-5 py-3.5 mt-5"
       >
         Get code
       </button>
@@ -60,6 +62,8 @@
 
 <script setup>
 import phoneData from '@/local-db/countryPhones.json'
+import { computed } from 'vue'
+import { useModeStore } from '@/store/settings/mode'
 
 const emit = defineEmits([
   'select-country',
@@ -87,4 +91,12 @@ const props = defineProps({
 const updatePhoneModel = (e) => {
   emit('update:phoneModel', e.target.value)
 }
+
+const modeStore = useModeStore()
+
+const mode = computed(() => modeStore.mode)
+const themeText = computed(() => (mode.value === 'light' ? 'text-primary' : 'text-slate-500'))
+const inputBg = computed(() =>
+  mode.value === 'light' ? 'bg-white border-gray-200' : 'border-slate-500 bg-[#131b30]'
+)
 </script>

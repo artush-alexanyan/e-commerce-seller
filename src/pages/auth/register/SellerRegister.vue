@@ -5,7 +5,7 @@
       <BaseLoader />
     </div>
     <div class="step-one" v-else>
-      <p class="text-center text-lg mb-5">Let us know about yourself</p>
+      <p class="text-center text-lg mb-5" :class="themeText">Let us know about yourself</p>
       <div class="registration-form">
         <form @submit.prevent="submitFirstStep">
           <div class="grid md:grid-cols-2 gap-5">
@@ -69,9 +69,9 @@
           />
 
           <div class="mt-5 flex items-center space-x-2.5">
-            <p>
-              Accept <RouterLink class="text-purple" to="/">Terms</RouterLink> &
-              <RouterLink class="text-purple" to="/">Privacy</RouterLink>
+            <p :class="themeText">
+              Accept <RouterLink class="text-purple-600" to="/">Terms</RouterLink> &
+              <RouterLink class="text-purple-600" to="/">Privacy</RouterLink>
             </p>
 
             <BaseInput
@@ -88,7 +88,7 @@
             :disabled="stepOneLoading"
             aria-label="Continue"
             name="Submit"
-            class="rounded-lg bg-purple-600 text-white px-5 py-2.5 mt-5 w-full flex items-center justify-center space-x-1.5"
+            class="rounded-lg bg-purple-600 text-white px-5 py-3.5 mt-5 w-full flex items-center justify-center space-x-1.5"
           >
             <span>Continue</span>
             <IconSpinner v-if="stepOneLoading" />
@@ -108,7 +108,12 @@ import BaseInput from '@/components/base/BaseInput.vue'
 import BaseLoader from '@/components/base/BaseLoader.vue'
 import IconUser from '@/components/icons/IconUser.vue'
 import IconSpinner from '@/components/icons/IconSpinner.vue'
+import { useModeStore } from '@/store/settings/mode'
+
+const modeStore = useModeStore()
 const registerStore = useRegisterStore()
+const mode = computed(() => modeStore.mode)
+const themeText = computed(() => (mode.value === 'light' ? 'text-primary' : 'text-slate-500'))
 const name = ref('')
 const lastName = ref('')
 const email = ref('')

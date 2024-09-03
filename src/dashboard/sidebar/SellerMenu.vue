@@ -1,7 +1,7 @@
 <template>
   <div class="seller-menu mt-10">
     <div class="ul">
-      <div class="li my-5" v-for="(item, index) in menuItems" :key="index">
+      <div class="li py-3" v-for="(item, index) in menuItems" :key="index">
         <div class="flex items-center justify-between">
           <button
             @click="changeMenu(item)"
@@ -10,15 +10,17 @@
             name=""
             aria-label=""
           >
-            <!-- <Icon :name="item.icon" style="color: #883ae1" size="1.5rem" /> -->
+            <component :is="item.icon"></component>
             <span>{{ item.title }}</span>
           </button>
-          <button name="Toggle childs" aria-label="Toggle" @click="toggleChilds(item)">
-            <!-- <Icon
-              :name="item.showChilds ? 'uil:angle-up' : 'uil:angle-down'"
-              style="color: gray"
-              size="1.5rem"
-            /> -->
+          <button
+            v-if="item.hesChildren"
+            name="Toggle childs"
+            aria-label="Toggle"
+            @click="toggleChilds(item)"
+          >
+            <IconChevronDown v-if="item.showChilds" />
+            <IconChevronRight v-else />
           </button>
         </div>
 
@@ -37,15 +39,30 @@
 </template>
 
 <script setup>
-import { useRouter } from '#app'
+import { ref, shallowRef } from 'vue'
+import { useRouter } from 'vue-router'
+import IconDice from '@/components/icons/dashboard/IconDice.vue'
+import IconStore from '@/components/icons/dashboard/IconStore.vue'
+import IconOrder from '@/components/icons/dashboard/IconOrder.vue'
+import IconScan from '@/components/icons/dashboard/IconScan.vue'
+import IconChevronDown from '@/components/icons/IconChevronDown.vue'
+import IconChevronRight from '@/components/icons/IconChevronRight.vue'
 
 const router = useRouter()
 
-const menuItems = ref([
+const menuItems = shallowRef([
   {
     id: 0,
     showChilds: false,
-    icon: 'uil:store',
+    icon: IconDice,
+    title: 'Dashboard',
+    hesChildren: false,
+    routePath: '/dashboard/products'
+  },
+  {
+    id: 1,
+    showChilds: false,
+    icon: IconStore,
     title: 'Store',
     hesChildren: true,
     routePath: '/dashboard/products',
@@ -62,9 +79,9 @@ const menuItems = ref([
     ]
   },
   {
-    id: 1,
+    id: 2,
     showChilds: false,
-    icon: 'uil:truck',
+    icon: IconOrder,
     title: 'Orders',
     hesChildren: true,
     routePath: '/dashboard/orders',
@@ -81,10 +98,10 @@ const menuItems = ref([
     ]
   },
   {
-    id: 1,
+    id: 3,
     showChilds: false,
-    icon: 'uil:user',
-    title: 'Seller',
+    icon: IconScan,
+    title: 'Products',
     hesChildren: true,
     routePath: '/dashboard/seller',
     children: [
@@ -102,13 +119,19 @@ const menuItems = ref([
 ])
 
 const toggleChilds = (item) => {
+  // Iterate over all menu items and ensure only the clicked item can have its children visible.
+  // If the current menu item is not the clicked item, set its `showChilds` property to false.
   menuItems.value.forEach((menuItem) => {
     if (menuItem !== item) {
       menuItem.showChilds = false
     }
   })
 
+  // Toggle the `showChilds` property of the clicked menu item.
   item.showChilds = !item.showChilds
+
+  // Force reactivity to ensure the UI updates with the latest state by creating a new array reference.
+  menuItems.value = [...menuItems.value]
 }
 
 const changeMenu = (item) => {

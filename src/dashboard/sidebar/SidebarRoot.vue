@@ -7,12 +7,15 @@
         <SidebarLogoVue />
         <SellerMenu />
       </div>
-      <div class="flex flex-col items-center">User</div>
+      <div class="flex flex-col items-center">
+        <SellerInfo />
+      </div>
     </div>
   </aside>
 </template>
 
 <script setup>
-import SellerMenu from '~/components/dashboard/sidebar/SellerMenu.vue'
-import SidebarLogoVue from '~/components/dashboard/sidebar/SidebarLogo.vue'
+import SellerMenu from '@/dashboard/sidebar/SellerMenu.vue'
+import SidebarLogoVue from '@/dashboard/sidebar/SidebarLogo.vue'
+import SellerInfo from './SellerInfo.vue'
 </script>

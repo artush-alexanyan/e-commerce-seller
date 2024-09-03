@@ -1,14 +1,14 @@
 <template>
-  <div class="">
+  <div :class="themeBg">
     <AuthNavbar />
     <div class="loading-state flex items-center justify-center py-20" v-if="authLoading">
       <BaseLoader />
     </div>
-    <div class="flex items-center justify-center h-screen" v-else>
+    <div class="flex items-center justify-center h-screen" :class="themeBg" v-else>
       <div class="md:w-[400px] w-full p-5">
-        <p class="text-3xl text-center mb-10">Login page</p>
+        <p class="text-4xl text-center font-semibold mb-5 narko" :class="themeText">Seller Login</p>
         <div class="">
-          <form @submit.prevent="loginSeller" action="">
+          <form @submit.prevent="loginSeller">
             <BaseInput
               class="mt-5"
               v-model="email"
@@ -52,7 +52,7 @@
               :disabled="loginLoading"
               aria-label="Continue"
               name="Submit"
-              class="rounded-lg bg-purple-600 text-white px-5 py-3 mt-5 w-full flex items-center justify-center space-x-1.5"
+              class="rounded-lg bg-purple-600 text-white px-5 py-3.5 mt-5 w-full flex items-center justify-center space-x-1.5"
             >
               <span>Login</span>
               <IconSpinner v-if="loginLoading" />
@@ -66,24 +66,29 @@
 </template>
 
 <script setup>
+import { computed, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import API from '@/api/api'
+import { useRegisterStore } from '@/store/auth/register'
 import BaseInput from '@/components/base/BaseInput.vue'
 import BaseLoader from '@/components/base/BaseLoader.vue'
 import IconSpinner from '@/components/icons/IconSpinner.vue'
 import BaseAlert from '@/components/base/BaseAlert.vue'
-import { useRegisterStore } from '@/store/auth/register'
-import { computed, ref } from 'vue'
-import { useRouter } from 'vue-router'
-import API from '@/api/api'
 import IconEnvelope from '@/components/icons/IconEnvelope.vue'
 import IconLock from '@/components/icons/IconLock.vue'
 import IconEyeClosed from '@/components/icons/IconEyeClosed.vue'
 import IconEye from '@/components/icons/IconEye.vue'
 import AuthNavbar from '../components/AuthNavbar.vue'
 
+import { useModeStore } from '@/store/settings/mode'
+
+const modeStore = useModeStore()
 const router = useRouter()
 const registerStore = useRegisterStore()
+const mode = computed(() => modeStore.mode)
+const themeText = computed(() => (mode.value === 'light' ? 'text-black' : 'text-white'))
+const themeBg = computed(() => (mode.value === 'light' ? 'bg-white' : 'bg-[#020420]'))
 const authLoading = computed(() => registerStore.authLoading)
-
 const email = ref('')
 const password = ref('')
 const loginLoading = ref(false)

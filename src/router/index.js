@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import API from '@/api/api'
+import { useRegisterStore } from '@/store/auth/register'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -49,6 +49,18 @@ const router = createRouter({
           meta: { requiresAuth: true }
         }
       ]
+    },
+    {
+      path: '/seller/dashboard',
+      name: 'DashboardRoot',
+      component: () => import('@/dashboard/DashboardRoot.vue'),
+      meta: { requiresAuth: true }
+    },
+    {
+      path: '/account_inactive',
+      name: 'AccountInactive',
+      component: () => import('@/pages/auth/register/AccountInactive.vue'),
+      meta: { requiresAuth: true }
     }
   ]
 })
@@ -65,9 +77,9 @@ router.beforeEach(async (to, from, next) => {
   }
 
   try {
-    const response = await API.get('/auth/checkAuth')
-    const seller = response.data.seller
-
+    const registerStore = useRegisterStore()
+    await registerStore.checkUserState()
+    const seller = registerStore.seller
     if (!seller) {
       // Redirect to login if not authenticated
       if (to.path === '/auth/login') {
