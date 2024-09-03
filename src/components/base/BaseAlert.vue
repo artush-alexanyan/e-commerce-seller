@@ -16,7 +16,6 @@
         >
           <div class="flex items-cener">
             <div class="flex items-center">
-              <!-- <Icon :name="getMessageIcon(message.type)" :style="`color: ${getTextClass(message.type)}`" size="1.5rem" /> -->
               <p :style="`color: ${getTextClass(message.type)}`" class="ml-2">
                 {{ message.message }}
               </p>
