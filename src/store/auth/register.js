@@ -41,7 +41,7 @@ export const useRegisterStore = defineStore('RegisterStore', {
         // console.log("nextRouteIndex", nextRouteIndex)
         // console.log("isOnProtectedRoute", matchedRoutes)
       } catch (error) {
-        console.log("login error", error)
+        console.log('login error', error)
         this.authLoading = false
         const message = error.response ? error.response.data.message : error.message
         this.handelMessages(message, 'Error')
@@ -74,7 +74,7 @@ export const useRegisterStore = defineStore('RegisterStore', {
         const nextRouteEndpoint = protectedRoutes[nextRouteIndex]
         setTimeout(() => {
           router.push({ path: `/auth/register/${nextRouteEndpoint}` })
-        }, 2000);
+        }, 2000)
       } catch (error) {
         this.loginLoading = false
         console.error(error.response ? error.response.message : error.message)

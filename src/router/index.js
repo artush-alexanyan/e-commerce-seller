@@ -80,7 +80,7 @@ const router = createRouter({
           path: 'account',
           name: 'AccountDashboard.vue',
           component: () => import('../dashboard/content/products/AccountDashboard.vue')
-        },
+        }
       ]
     },
     {
