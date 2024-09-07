@@ -8,7 +8,8 @@ export const useRegisterStore = defineStore('RegisterStore', {
     seller: null,
     authLoading: false,
     registerMessages: [],
-    taxLoading: false
+    taxLoading: false,
+    loginLoading: false
   }),
   actions: {
     resetMessages() {
@@ -40,7 +41,43 @@ export const useRegisterStore = defineStore('RegisterStore', {
         // console.log("nextRouteIndex", nextRouteIndex)
         // console.log("isOnProtectedRoute", matchedRoutes)
       } catch (error) {
+        console.log("login error", error)
         this.authLoading = false
+        const message = error.response ? error.response.data.message : error.message
+        this.handelMessages(message, 'Error')
+      }
+    },
+    async loginSeller(email, password) {
+      this.loginLoading = true
+      try {
+        const response = await API.post('/auth/login', {
+          email,
+          password
+        })
+        this.loginLoading = false
+        const message = `Welcome back ${response.data.seller.name} ${response.data.seller.lastName}`
+        this.handelMessages(message, 'Success')
+        const sellerStatus = response.data.seller.status
+        const protectedRoutes = [
+          'registration',
+          'email_verification',
+          'taxpayer_info',
+          'payment_verification'
+        ]
+
+        const matchedRoutes = protectedRoutes.filter((item) => sellerStatus === item)
+        if (matchedRoutes.length === 0) {
+          return
+        }
+        const routeEndpoit = matchedRoutes[0]
+        const nextRouteIndex = protectedRoutes.indexOf(routeEndpoit) + 1
+        const nextRouteEndpoint = protectedRoutes[nextRouteIndex]
+        setTimeout(() => {
+          router.push({ path: `/auth/register/${nextRouteEndpoint}` })
+        }, 2000);
+      } catch (error) {
+        this.loginLoading = false
+        console.error(error.response ? error.response.message : error.message)
         const message = error.response ? error.response.data.message : error.message
         this.handelMessages(message, 'Error')
       }

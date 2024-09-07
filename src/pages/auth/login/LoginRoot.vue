@@ -1,7 +1,11 @@
 <template>
   <div :class="themeBg">
     <AuthNavbar />
-    <div class="loading-state flex items-center justify-center py-20" v-if="authLoading">
+    <div
+      class="loading-state flex items-center justify-center py-40"
+      :class="themeBg"
+      v-if="authLoading"
+    >
       <BaseLoader />
     </div>
     <div class="flex items-center justify-center h-screen" :class="themeBg" v-else>
@@ -66,9 +70,8 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
-import API from '@/api/api'
 import { useRegisterStore } from '@/store/auth/register'
 import BaseInput from '@/components/base/BaseInput.vue'
 import BaseLoader from '@/components/base/BaseLoader.vue'
@@ -79,20 +82,19 @@ import IconLock from '@/components/icons/IconLock.vue'
 import IconEyeClosed from '@/components/icons/IconEyeClosed.vue'
 import IconEye from '@/components/icons/IconEye.vue'
 import AuthNavbar from '../components/AuthNavbar.vue'
-
 import { useModeStore } from '@/store/settings/mode'
 
-const modeStore = useModeStore()
 const router = useRouter()
+const modeStore = useModeStore()
 const registerStore = useRegisterStore()
 const mode = computed(() => modeStore.mode)
 const themeText = computed(() => (mode.value === 'light' ? 'text-black' : 'text-white'))
 const themeBg = computed(() => (mode.value === 'light' ? 'bg-white' : 'bg-[#020420]'))
 const authLoading = computed(() => registerStore.authLoading)
+const loginLoading = computed(() => registerStore.loginLoading)
+const loginMessages = computed(() => registerStore.registerMessages)
 const email = ref('')
 const password = ref('')
-const loginLoading = ref(false)
-const loginMessages = ref([])
 const showPassword = ref(false)
 
 const togglePassword = () => {
@@ -100,38 +102,7 @@ const togglePassword = () => {
 }
 
 const loginSeller = async () => {
-  loginLoading.value = true
-  try {
-    const response = await API.post('/auth/login', {
-      email: email.value,
-      password: password.value
-    })
-    loginLoading.value = false
-    alert(
-      `Login successful for the seller - ${response.data.seller.name} ${response.data.seller.lastName}`
-    )
-    const sellerStatus = response.data.seller.status
-
-    const protectedRoutes = [
-      'registration',
-      'email_verification',
-      'taxpayer_info',
-      'payment_verification'
-    ]
-
-    const matchedRoutes = protectedRoutes.filter((item) => sellerStatus === item)
-    if (matchedRoutes.length === 0) {
-      return
-    }
-    const routeEndpoit = matchedRoutes[0]
-    const nextRouteIndex = protectedRoutes.indexOf(routeEndpoit) + 1
-    const nextRouteEndpoint = protectedRoutes[nextRouteIndex]
-    router.push({ path: `/auth/register/${nextRouteEndpoint}` })
-  } catch (error) {
-    loginLoading.value = false
-    console.error(error.response ? error.response.message : error.response)
-    alert('Login error', error.response ? error.response.message : error.response)
-  }
+  await registerStore.loginSeller(email.value, password.value)
 }
 // onMounted(async () => await registerStore.checkUserState())
 </script>

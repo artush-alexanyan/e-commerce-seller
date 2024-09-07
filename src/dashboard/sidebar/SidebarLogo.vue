@@ -4,3 +4,5 @@
     <span class="text-4xl narko">Seller</span>
   </div>
 </template>
+
+<script setup></script>

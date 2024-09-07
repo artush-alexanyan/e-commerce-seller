@@ -1,23 +1,22 @@
 <template>
   <div>
-    <div class="p-5 border border-gray-100 rounded-xl shadow-xl" v-if="seller">
-      <div class="flex flex-col items-center space-y-3">
+    <div class="" v-if="seller">
+      <div class="flex items-center space-x-2.5">
         <p class="text-center text-lg narko">{{ seller.name }} {{ seller.lastName }}</p>
         <div class="wrapper">
           <img
             v-if="seller.avatar"
             :src="seller.avatar"
             alt="avatar"
-            class="h-16 w-16 rounded-full border border-gray-200 object-cover"
+            class="h-9 w-9 rounded-full border border-gray-200 object-cover"
           />
           <div
             v-else
-            class="h-16 w-16 rounded-full border-2 border-gray-400 flex items-center justify-center"
+            class="h-9 w-9 rounded-full border-2 border-gray-400 flex items-center justify-center"
           >
-            <IconAvatar :icon-class="'h-9'" />
+            <IconAvatar :icon-class="'h-7'" />
           </div>
         </div>
-        <p>{{ seller.roles }}</p>
       </div>
     </div>
   </div>

@@ -54,7 +54,34 @@ const router = createRouter({
       path: '/seller/dashboard',
       name: 'DashboardRoot',
       component: () => import('@/dashboard/DashboardRoot.vue'),
-      meta: { requiresAuth: true }
+      meta: { requiresAuth: true },
+      children: [
+        {
+          path: '',
+          name: 'HomeDashboard.vue',
+          component: () => import('../dashboard/content/home/HomeDashboard.vue')
+        },
+        {
+          path: 'store',
+          name: 'StoreDashboard.vue',
+          component: () => import('../dashboard/content/store/StoreDashboard.vue')
+        },
+        {
+          path: 'orders',
+          name: 'OrdersDashboard.vue',
+          component: () => import('../dashboard/content/orders/OrdersDashboard.vue')
+        },
+        {
+          path: 'products',
+          name: 'ProductsDashboard.vue',
+          component: () => import('../dashboard/content/products/ProductsDashboard.vue')
+        },
+        {
+          path: 'account',
+          name: 'AccountDashboard.vue',
+          component: () => import('../dashboard/content/products/AccountDashboard.vue')
+        },
+      ]
     },
     {
       path: '/account_inactive',

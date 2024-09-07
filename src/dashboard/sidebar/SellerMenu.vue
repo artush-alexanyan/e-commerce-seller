@@ -2,7 +2,10 @@
   <div class="seller-menu mt-10">
     <div class="ul">
       <div class="li py-3" v-for="(item, index) in menuItems" :key="index">
-        <div class="flex items-center justify-between">
+        <div
+          class="flex items-center justify-between"
+          :class="{ 'text-purple-600': currentMenu === item.title }"
+        >
           <button
             @click="changeMenu(item)"
             class="flex items-center space-x-2 text-lg"
@@ -10,7 +13,16 @@
             name=""
             aria-label=""
           >
-            <component :is="item.icon"></component>
+            <IconCog
+              :stroke="currentMenu === item.title ? '#9333ea' : '#6b7280'"
+              v-if="authLoading"
+              class="animate-spin"
+            />
+            <component
+              :stroke="currentMenu === item.title ? '#9333ea' : '#6b7280'"
+              v-else
+              :is="item.icon"
+            ></component>
             <span>{{ item.title }}</span>
           </button>
           <button
@@ -19,8 +31,11 @@
             aria-label="Toggle"
             @click="toggleChilds(item)"
           >
-            <IconChevronDown v-if="item.showChilds" />
-            <IconChevronRight v-else />
+            <IconChevronDown
+              :stroke="currentMenu === item.title ? '#9333ea' : '#6b7280'"
+              v-if="item.showChilds"
+            />
+            <IconChevronRight :stroke="currentMenu === item.title ? '#9333ea' : '#6b7280'" v-else />
           </button>
         </div>
 
@@ -39,7 +54,7 @@
 </template>
 
 <script setup>
-import { ref, shallowRef } from 'vue'
+import { ref, computed, shallowRef } from 'vue'
 import { useRouter } from 'vue-router'
 import IconDice from '@/components/icons/dashboard/IconDice.vue'
 import IconStore from '@/components/icons/dashboard/IconStore.vue'
@@ -47,9 +62,16 @@ import IconOrder from '@/components/icons/dashboard/IconOrder.vue'
 import IconScan from '@/components/icons/dashboard/IconScan.vue'
 import IconChevronDown from '@/components/icons/IconChevronDown.vue'
 import IconChevronRight from '@/components/icons/IconChevronRight.vue'
+import IconAccount from '@/components/icons/dashboard/IconAccount.vue'
+import IconCog from '@/components/icons/IconCog.vue'
+import { useRegisterStore } from '@/store/auth/register'
+
+const registerStore = useRegisterStore()
+
+const authLoading = computed(() => registerStore.authLoading)
 
 const router = useRouter()
-
+const currentMenu = ref('Dashboard')
 const menuItems = shallowRef([
   {
     id: 0,
@@ -57,7 +79,7 @@ const menuItems = shallowRef([
     icon: IconDice,
     title: 'Dashboard',
     hesChildren: false,
-    routePath: '/dashboard/products'
+    routePath: '/seller/dashboard'
   },
   {
     id: 1,
@@ -65,7 +87,7 @@ const menuItems = shallowRef([
     icon: IconStore,
     title: 'Store',
     hesChildren: true,
-    routePath: '/dashboard/products',
+    routePath: '/seller/dashboard/store',
     children: [
       {
         id: 0,
@@ -84,7 +106,7 @@ const menuItems = shallowRef([
     icon: IconOrder,
     title: 'Orders',
     hesChildren: true,
-    routePath: '/dashboard/orders',
+    routePath: '/seller/dashboard/orders',
     children: [
       {
         id: 0,
@@ -103,7 +125,26 @@ const menuItems = shallowRef([
     icon: IconScan,
     title: 'Products',
     hesChildren: true,
-    routePath: '/dashboard/seller',
+    routePath: '/seller/dashboard/products',
+    children: [
+      {
+        id: 0,
+        showChilds: false,
+        icon: 'uil:store',
+        title: 'Settings',
+        hesChildren: false,
+        routePath: '/dashboard/seller',
+        children: []
+      }
+    ]
+  },
+  {
+    id: 4,
+    showChilds: false,
+    icon: IconAccount,
+    title: 'Account',
+    hesChildren: true,
+    routePath: '/seller/dashboard/account',
     children: [
       {
         id: 0,
@@ -135,6 +176,7 @@ const toggleChilds = (item) => {
 }
 
 const changeMenu = (item) => {
+  currentMenu.value = item.title
   router.push({ path: item.routePath })
 }
 </script>
