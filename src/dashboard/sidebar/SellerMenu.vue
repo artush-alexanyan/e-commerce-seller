@@ -4,7 +4,7 @@
       <div class="li py-3" v-for="(item, index) in menuItems" :key="index">
         <div
           class="flex items-center justify-between"
-          :class="{ 'text-purple-600': currentMenu === item.title }"
+          :class="currentMenu === item.title ? 'text-purple-600' : themeText"
         >
           <button
             @click="changeMenu(item)"
@@ -14,12 +14,12 @@
             aria-label=""
           >
             <IconCog
-              :stroke="currentMenu === item.title ? '#9333ea' : '#6b7280'"
+              :stroke="currentMenu === item.title ? '#9333ea' : themeIconStroke"
               v-if="authLoading"
               class="animate-spin"
             />
             <component
-              :stroke="currentMenu === item.title ? '#9333ea' : '#6b7280'"
+              :stroke="currentMenu === item.title ? '#9333ea' : themeIconStroke"
               v-else
               :is="item.icon"
             ></component>
@@ -42,7 +42,7 @@
         <TransitionGroup name="list" tag="div">
           <div class="ul mt-3.5" v-if="item.showChilds">
             <div class="li" v-for="(subItem, ind) in item.children" :key="ind">
-              <button type="button" class="w-full h-full pl-8 text-left">
+              <button :class="themeText" type="button" class="w-full h-full pl-8 text-left">
                 {{ subItem.title }}
               </button>
             </div>
@@ -65,7 +65,13 @@ import IconChevronRight from '@/components/icons/IconChevronRight.vue'
 import IconAccount from '@/components/icons/dashboard/IconAccount.vue'
 import IconCog from '@/components/icons/IconCog.vue'
 import { useRegisterStore } from '@/store/auth/register'
+import { useModeStore } from '@/store/settings/mode'
 
+const modeStore = useModeStore()
+
+const mode = computed(() => modeStore.mode)
+const themeText = computed(() => (mode.value === 'light' ? 'text-black' : 'text-white'))
+const themeIconStroke = computed(() => (mode.value === 'light' ? '#6b7280' : '#ffffff'))
 const registerStore = useRegisterStore()
 
 const authLoading = computed(() => registerStore.authLoading)
