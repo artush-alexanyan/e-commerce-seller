@@ -1,13 +1,32 @@
 <template>
-  <div class="home-dashboard">Home dashboard</div>
+  <div class="p-5" :class="themeText">
+    <div class="home-dashboar mb-5">Home dashboard</div>
 
-  <div>
-    <apexchart width="500" type="bar" :options="chartOptions" :series="series"></apexchart>
+    <div class="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid gap-5">
+      <div class="flex items-center justify-center rounded-xl shadow-sm" :class="contentBg">
+        <apexchart width="350" type="bar" :options="chartOptions" :series="series"></apexchart>
+      </div>
+      <div class="flex items-center justify-center rounded-xl shadow-sm" :class="contentBg">
+        <apexchart width="350" type="bar" :options="chartOptions" :series="series"></apexchart>
+      </div>
+      <div class="flex items-center justify-center rounded-xl shadow-sm" :class="contentBg">
+        <apexchart width="350" type="bar" :options="chartOptions" :series="series"></apexchart>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import { computed } from 'vue'
+import { useModeStore } from '@/store/settings/mode'
+
+const modeStore = useModeStore()
+
+const mode = computed(() => modeStore.mode)
+const themeText = computed(() => (mode.value === 'light' ? 'text-black' : 'text-white'))
+const contentBg = computed(() => (mode.value === 'light' ? 'bg-white' : 'bg-[#131b30]'))
+
 const chartOptions = ref({
   chart: {
     id: 'dashboard',

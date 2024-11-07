@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="transition-all duration-300 h-20 mr-2.5 mt-1.5 p-5 flex items-center justify-between"
+    class="transition-all duration-300 h-20 mr-2.5 mt-1.5 mx-2.5 p-5 flex items-center justify-between"
     :class="[themeBg, themeText]"
   >
     <span>Hello</span>
